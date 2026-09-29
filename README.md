@@ -1,8 +1,9 @@
 # in-class-activities
 ## Devlogs
 ### W1
-Write your W1 activity Devlog here.
-
+Breoanna who said think of the cheese brie to remember easier
+All of our tablemate's parents have immigranted to the US
+Leondres, which means lion name in Spanish
 ### W2
 Create future Devlog sub-headers with the three # symbols, then write your Devlogs below them.
 
