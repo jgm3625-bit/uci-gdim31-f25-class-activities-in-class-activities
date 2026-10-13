@@ -1,4 +1,5 @@
 using TMPro;
+using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
 public class CatW3 : MonoBehaviour
@@ -125,16 +126,20 @@ public class CatW3 : MonoBehaviour
     //      _healthText.text to display "health = " and the new value of _health.
     //    '_healthText' is a TMP_Text Component, and 'text' is the variable that
     //     decides the text that displays in the UI for this Component.
-    //      Hint: there's just one operator missing!
-    private void DecreaseHealth();
-    
+    //      Hint: there's just one operatorDecreaseHealth missing!
+    private void DecreaseHealth()
+    {
         // write Step 3 below this comment!
-
-
+        _health--;
+        _healthText.text = "Health=" + _health;
         // STEP 5 -------------------------------------------------------------
         // Once you've finished Step 4, CALL the GetHealthSpeechText method
         //      and store the result in _speechText's text variable.
         // This will look very similar to the above line to change _healthText ;)
+        GetHealthSpeechText();
+        {
+            _speechText.text = GetHealthSpeechText();
+        }
 
 
         // STEP 5 -------------------------------------------------------------
@@ -153,11 +158,16 @@ public class CatW3 : MonoBehaviour
     //      return "OH NO!".
     // 2. Otherwise, return "ouch".
 
-    //private ??? GetHealthSpeechText()
-    //{
-        // put the method body here!
-        
-    //}
+    private string GetHealthSpeechText()
+    {
+        if (_health < _maxHealth/2)
+        {
+            return ("OH NO!");
+        }
+        else {
+            return ("ouch");
+        }
+    }
     
     // STEP 4 -----------------------------------------------------------------
 
