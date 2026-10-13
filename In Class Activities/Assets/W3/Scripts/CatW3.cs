@@ -95,8 +95,8 @@ public class CatW3 : MonoBehaviour
             // Below this comment, CALL the method named DecreaseHealth.
             // Notice this method's return type is void- that means we don't
             //      have to store the result anywhere.
-            
 
+            DecreaseHealth(); 
             // STEP 2 ---------------------------------------------------------
 
             // STEP 6 ---------------------------------------------------------
@@ -126,8 +126,8 @@ public class CatW3 : MonoBehaviour
     //    '_healthText' is a TMP_Text Component, and 'text' is the variable that
     //     decides the text that displays in the UI for this Component.
     //      Hint: there's just one operator missing!
-    private void DecreaseHealth()
-    {
+    private void DecreaseHealth();
+    
         // write Step 3 below this comment!
 
 
