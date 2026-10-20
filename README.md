@@ -18,6 +18,9 @@ public string GetResponse (int friendshipLevel, bool knowsSecret)
 public bool DidHitBeat (float timeHit)
 Activity 2
 The classes are like the training manuel for wizards. Within the class, it has a member variable and methods. The member variable can be seen as wizard stats and the method is the kind of spells the wizard cast. The component is an object like a wand that belongs to a wizard and helps it do things.
+### W4
+1. The rigidbody is added to the cat and the soccerball. The collider for the goal post needed to be checked on the Is Trigger, because I want the ball to go through the goal post to trigger a goal text, instead of acting as a physical object.
+2. I needed to freeze the rotation of the cat object in x and z axis.
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
