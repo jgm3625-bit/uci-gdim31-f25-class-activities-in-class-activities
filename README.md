@@ -25,6 +25,11 @@ The classes are like the training manuel for wizards. Within the class, it has a
 1. The member variable is the NavMeshAgent and Transform
 2. The method is SetDestination, Start(), and Update()
 3. The method for SetDestination is to help point a direction to a specified location, the Start() is when the game initially begins, and the Update() is when the game update the movement every frame.
+### W6
+
+### W7
+1. In step 2, something that went wrong with the code is having a missing/incorrect method. So, I changed the transform.position to transform.translate to move the GameObject than being in place, which I coded it to move forward and back
+
 ## Open-Source Assets
 ### W1
 - Animals: https://assetstore.unity.com/packages/3d/characters/animals/animals-free-animated-low-poly-3d-models-260727 
